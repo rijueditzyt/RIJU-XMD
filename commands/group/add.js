@@ -13,7 +13,7 @@ module.exports = {
   aliases: ['addmember', 'addm'],
   category: 'group',
   description: 'Add members to a group using phone numbers',
-  usage: '.add [groupJid] 92300123456,92300765432 (max 10)',
+  usage: '.add [groupJid] 919332446037,917364934516 (max 10)',
   groupOnly: false,          // can be used in private chat with group JID
   adminOnly: true,           // sender must be admin of the target group (or owner)
   botAdminNeeded: false,     // we handle bot admin permission dynamically
@@ -41,7 +41,7 @@ module.exports = {
         if (isGroup) {
           targetGroupJid = from;
         } else {
-          return reply('❌ Please specify a group JID first.\nExample: .add 123456789@g.us 92300123456,92300765432');
+          return reply('❌ Please specify a group JID first.\nExample: .add 123456789@g.us 917364934516,917364934516');
         }
       }
 
