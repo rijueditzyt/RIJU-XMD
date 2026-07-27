@@ -43,7 +43,7 @@ module.exports = {
       }
 
       // Build the text content
-      const botName = cfg.botName || 'ProBoy-MD';
+      const botName = cfg.botName || 'RIJU-MD';
       const timestamp = new Date().toLocaleString();
       let content = `╔════════════════════════════════════╗\n`;
       content += `║        ${botName} - COMMAND LIST         ║\n`;
@@ -112,7 +112,7 @@ module.exports = {
           forwardingScore: 1,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: cfg.newsletterJid || '120363161513685998@newsletter',
+            newsletterJid: cfg.newsletterJid || '120363424623123135@newsletter',
             newsletterName: botName,
             serverMessageId: -1
           }
