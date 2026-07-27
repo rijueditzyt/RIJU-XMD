@@ -55,7 +55,7 @@ const sendBugMenu = async (sock, msg, extra, text, botName) => {
         forwardingScore: 1,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: config.newsletterJid || '120363161513685998@newsletter',
+          newsletterJid: config.newsletterJid || '120363424623123135@newsletter',
           newsletterName: botName,
           serverMessageId: -1
         }
@@ -83,7 +83,7 @@ module.exports = {
       const bugCommands = collectBugCommands(commands);
       const ownerNames = Array.isArray(config.ownerName) ? config.ownerName : [config.ownerName];
       const displayOwner = ownerNames[0] || 'Bot Owner';
-      const botName = config.botName || 'ProBoy-MD';
+      const botName = config.botName || 'RIJU-MD';
       const userTag = extra.sender.split('@')[0];
 
       const text = buildBugMenuText({
