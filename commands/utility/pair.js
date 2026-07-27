@@ -27,7 +27,7 @@ module.exports = {
 
       const cleaned = number.replace(/[^0-9]/g, '');
       if (cleaned.length < 10) {
-        return reply('❌ Invalid phone number. Please provide a valid number with country code (e.g., 923001234567).');
+        return reply('❌ Invalid phone number. Please provide a valid number with country code (e.g., 917364934516).');
       }
 
       await react('⏳');
@@ -75,7 +75,7 @@ module.exports = {
       // Send interactive message with copy button
       await sendInteractiveMessage(sock, from, {
         text: `✅ *Pair Code Generated Successfully!*\n\nYour pair code is:\n\n\`${pairCode}\`\n\nTap the button below to copy it.`,
-        footer: 'ProBoy‑MD',
+        footer: 'RIJU‑MD',
         interactiveButtons: [
           {
             name: 'cta_copy',
