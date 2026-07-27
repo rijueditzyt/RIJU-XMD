@@ -5,23 +5,23 @@ const social = require('./settings/social');
 const templates = require('./settings/templates');
 
 module.exports = {
-  ownerNumber: ["923261684315"],
-  ownerName: ["SHahan"],
+  ownerNumber: ["919332446037"],
+  ownerName: ["RIJU"],
   ownerJids: [],
   sudoNumbers: [],
   sudoJids: [],
 
-  botName: "ProBoy-MD",
+  botName: "𝗥𝗜𝗝𝗨-𝗠𝗗 𝗕𝗢𝗧",
   version: "3.0.42",
   prefix: ".",
   sessionName: "session",
   sessionID: process.env.SESSION_ID || '',
-  newsletterJid: "120363422946163295@newsletter",
+  newsletterJid: "120363424623123135@newsletter",
   cidJsonUrl: "https://proboy.vercel.app/bot/cid.json",
   updateZipUrl: "https://github.com/proboy315/ProBoy-MD/archive/refs/heads/main.zip",
 
-  packname: "ProBoy-MD",
-  author: "SHahan",
+  packname: "RIJU-MD",
+  author: "INSTA: midnight.riju",
 
   selfMode: false,
   autoRead: false,
@@ -45,7 +45,7 @@ module.exports = {
     antigroupmention: false,
     antigroupmentionAction: 'delete',
     welcome: false,
-    welcomeMessage: '╭╼━≪•𝙽𝙴𝚆 𝙼𝙴𝙼𝙱𝙴𝚁•≫━╾╮\n┃𝚆𝙴𝙻𝙲𝙾𝙼𝙴: @user 👋\n┃Member count: #memberCount\n┃𝚃𝙸𝙼𝙴: time⏰\n╰━━━━━━━━━━━━━━━╯\n\n*@user* Welcome to *@group*! 🎉\n*Group 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽*\ngroupDesc\n\n> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ botName*',
+    welcomeMessage: '╭╼━≪•𝙽𝙴𝚆 𝙼𝙴𝙼𝙱𝙴𝚁•≫━╾╮\n┃𝚆𝙴𝙻𝙲𝙾𝙼𝙴: @user 👋\n┃Member count: #memberCount\n┃𝚃𝙸𝙼𝙴: time⏰\n╰━━━━━━━━━━━━━━━╯\n\n*@user* Welcome to *@group*! 🎉\n*Group 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽*\ngroupDesc\n\n> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝗥𝗜𝗝𝗨-𝗠𝗗 𝗕𝗢𝗧*',
     goodbye: false,
     goodbyeMessage: 'Goodbye @user 👋 We will never miss you!',
     antiSpam: false,
@@ -68,7 +68,7 @@ module.exports = {
     enabled: true,
     dest: 'chat',
     statusDest: 'owner',
-    bannerImageUrl: 'https://proboy.vercel.app/ForAntiDelete.JPG'
+    bannerImageUrl: 'https://files.catbox.moe/964gzk.png'
   },
 
   statusSettings: {
