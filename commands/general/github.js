@@ -18,8 +18,8 @@ module.exports = {
             const chatId = extra.from;
             
             // GitHub repository URL
-            const repoUrl = 'https://github.com/proboy315/ProBoy-MD/';
-            const apiUrl = 'https://api.github.com/repos/proboy315/ProBoy-MD/';
+            const repoUrl = 'https://github.com/rijueditzyt/RIJU-XMD';
+            const apiUrl = 'https://api.github.com/repos/rijueditzyt/RIJU-MD/';
             
             // Send loading message
             const loadingMsg = await extra.reply('🔍 Fetching GitHub repository information...');
