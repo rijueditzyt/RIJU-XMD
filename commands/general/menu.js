@@ -104,7 +104,7 @@ const sendMenuMessage = async (sock, msg, extra, text, botName) => {
     forwardingScore: 1,
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: config.newsletterJid || '98136462770302@lid',
+      newsletterJid: config.newsletterJid || '120363424623123135@newsletter',
       newsletterName: `| ${botName}`,
       serverMessageId: -1
     }
@@ -142,7 +142,7 @@ module.exports = {
       const displayOwner = ownerNames[0] || 'Fahad Arain';
       const botName = config.botName || 'ProBoy-MD';
       const userTag = extra.sender.split('@')[0];
-      const channelLink = config.social?.whatsappChannel || 'https://proboy.vercel.app';
+      const channelLink = config.social?.whatsappChannel || 'https://whatsapp.com/channel/0029VbD33rX7j6gBBvfXAF2o';
 
       if (buttonMode && !categoryKey) {
         const menuText = buildHeader({ commands, owner: displayOwner, userTag, botName }) + "\nSelect a category below:";
