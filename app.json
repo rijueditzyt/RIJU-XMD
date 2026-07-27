@@ -1,7 +1,7 @@
 {
-  "name": "ProBoy-Md",
+  "name": "Riju-Md",
   "description": "WhatsApp MD bot (Baileys)",
-  "repository": "https://github.com/proboy315/ProBoy-MD",
+  "repository": "https://github.com/rijueditzyt/RIJU-XMD",
   "keywords": ["whatsapp", "baileys", "bot", "node"],
   "buildpacks": [
     {
@@ -10,7 +10,7 @@
   ],
   "env": {
     "SESSION_ID": {
-      "description": "ProBoy-MD session string (e.g. ProBoy-MD!<base64_compressed_data>)",
+      "description": "ProBoy-MD session string (e.g. RIJU-MD!<base64_compressed_data>)",
       "required": true,
       "value": ""
     }
